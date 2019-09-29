@@ -1,0 +1,36 @@
+{
+  "name": "simple-redux",
+  "version": "0.0.1",
+  "description": "A example to demonstrate barebone redux.",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./dist && babel ./src --out-dir ./dist && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulwizviz/learn-javascript.git"
+  },
+  "keywords": [
+    "Redux"
+  ],
+  "author": "Paul Sitoh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paulwizviz/learn-javascript/issues"
+  },
+  "homepage": "https://github.com/paulwizviz/learn-javascript#readme",
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "redux": "4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0"
+  }
+}
